@@ -1,0 +1,115 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5vh;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+}
+.header__title {
+  color: white;
+  text-align: center;
+}
+.header__logo {
+  display: flex;
+  align-items: center;
+  padding-right: 1vw;
+  padding-left: 3vw;
+}
+
+.quiz {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #0d0d0d;
+  color: #ecf0f1;
+  height: 69vh;
+  width: 50vw;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(55, 53, 53, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+.quiz:hover {
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.45);
+  background-color: #141414;
+}
+.quiz__body {
+  display: flex;
+  flex-direction: column;
+}
+.quiz__body-title {
+  text-align: center;
+}
+.quiz__body-options {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.quiz__body-options1, .quiz__body-options2, .quiz__body-options3, .quiz__body-options4 {
+  border: 2px solid #555;
+  border-radius: 10px;
+  width: 30%;
+  height: 8vh;
+  padding: 2vh;
+  margin: 2vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #e57373;
+  color: white;
+  font-size: 1.2em;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.quiz__body-options1:hover, .quiz__body-options2:hover, .quiz__body-options3:hover, .quiz__body-options4:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 8px rgba(0, 0, 0, 0.2);
+}
+.quiz__body-options--right {
+  text-align: center;
+  border: gold solid 1rem;
+}
+.quiz__body-options--wrong {
+  text-align: center;
+  border: red solid 4px;
+}
+.quiz__result {
+  display: none;
+}
+.quiz__result--end {
+  display: inline-block;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: right;
+}
+.footer__title {
+  margin-left: 2vw;
+  margin-top: 1h;
+  color: white;
+}
+.footer__logo {
+  display: flex;
+  align-items: center;
+  padding-right: 3vw;
+  padding-left: 1vw;
+}/*# sourceMappingURL=main.css.map */

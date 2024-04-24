@@ -1,11 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trivia Quiz</title>
+    <link rel="stylesheet" href="./styles/main.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo"><img class="header__logo-image" src="./assets/logo/black-and-white2.png" alt="logo" /></div>
+      <h1 class="header__title">Movie Buff Quizz</h1>
+    </header>
+    <main>
+        <div class="main">
+            <div class="quiz">
+                <div class="quiz__progress"></div>
+                <div class="quiz__body">
+                <h3 class="quiz__body-title"></h3>
+                <div class="quiz__body-options">
+                    <div class="quiz__body-options1"></div>
+                    <div class="quiz__body-options2"></div>
+                    <div class="quiz__body-options3"></div>
+                    <div class="quiz__body-options4"></div>
+                </div>
+                </div>
+                <div class="quiz__result"></div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+      <h2 class="footer__title">Movie Buff Quizz</h2>
+      <div class="footer__logo"><img class="header__logo-image" src="./assets/logo/black-and-white2.png" alt="logo"/></div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.19.2/axios.min.js"></script>
+    <script src="./script.js"></script>
+    <script src="./quiz.js"></script>
+  </body>
 </html>
