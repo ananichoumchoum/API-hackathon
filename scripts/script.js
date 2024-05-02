@@ -1,4 +1,3 @@
-
 async function photo() {
     try {
         const photoId = 'red-cinema-chair-evlkOfkQ5rE';
