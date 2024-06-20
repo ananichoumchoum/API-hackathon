@@ -1,6 +1,5 @@
 # API Hackathon Project
 
-![Trivia Quiz](https://source.unsplash.com/random/1600x900) <!-- This link will dynamically fetch a random image from Unsplash -->
 
 ## Overview
 
@@ -53,8 +52,8 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Unsplash API
 
-- **Endpoint**: `https://source.unsplash.com/random/1600x900`
-- **Purpose**: Fetches random images for dynamic background changes.
+- **Endpoint**: `https://api.unsplash.com/photos/random?client_id=YOUR_API_KEY`
+- **Purpose**: Fetches a random image for dynamic background changes.
 
 ## Contributions
 
