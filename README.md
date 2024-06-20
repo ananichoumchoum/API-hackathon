@@ -60,7 +60,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 ### My Contributions
 
 - **CSS Design**: Led the styling of the application to ensure a responsive and user-friendly interface.
-- **script.js **: Fully coded the API connection to the unspash background image.
+- **script.js**: Fully coded the API connection to the unspash background image.
 - **Logic Refinement**: Improved the reset and question change logic for seamless user experience.
 
 ### Team Contributions
@@ -74,7 +74,6 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ## Future Enhancements
 
-- **Score Tracking**: Add functionality to track and display the user's score.
 - **Multiple Categories**: Include trivia questions from multiple categories to make the quiz more diverse.
 - **Improved User Interface**: Enhance the UI with animations and additional visual feedback.
 
