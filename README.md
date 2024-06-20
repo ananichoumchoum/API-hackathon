@@ -48,7 +48,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 
 ### Trivia API
 
-- **Endpoint**: `https://opentdb.com/api.php?amount=10`
+- **Endpoint**: `https://opentdb.com/api.php?amount=10&category=11&difficulty=easy&type=multiple`
 - **Purpose**: Provides trivia questions for the quiz.
 
 ### Unsplash API
